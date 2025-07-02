@@ -1,46 +1,5 @@
-# Dependencies
-node_modules/
-.npm/
-.npm-global/
-
-# Environment files
+credentials.json
+token.json
+*.pyc
+__pycache__/
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# IDE
-.vscode/
-.idea/
-
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage/
-
-# Cache
-.cache/
-.tmp/
-
-# Claude files (optional - you might want to keep these)
-.claude/
-.claude.json
