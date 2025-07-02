@@ -1,0 +1,564 @@
+/* Reset y configuración base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    min-height: 100vh;
+}
+
+/* Header */
+.hero-section {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+    text-align: center;
+    padding: 60px 30px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #ecf0f1;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #bdc3c7;
+    font-style: italic;
+}
+
+/* Secciones principales */
+section {
+    padding: 50px 30px;
+}
+
+.awareness-section {
+    background: #f8f9fa;
+    border-bottom: 3px solid #e9ecef;
+}
+
+.awareness-section h3 {
+    font-size: 2rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Pain Points */
+.pain-points {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.pain-point {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    border-left: 4px solid #e74c3c;
+}
+
+.pain-point .icon {
+    font-size: 2rem;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.pain-point p {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+/* Solución intro */
+.solution-intro {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-left: 4px solid #27ae60;
+}
+
+.solution-intro h4 {
+    color: #27ae60;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.solution-intro p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+/* Formulario */
+.data-form-section {
+    background: white;
+}
+
+.data-form-section h3 {
+    color: #2c3e50;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.data-form-section > p {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #5a6c7d;
+}
+
+.user-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+}
+
+/* Checkbox personalizado */
+.privacy-notice {
+    margin: 30px 0;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.checkbox-label input[type="checkbox"] {
+    width: auto;
+    margin-right: 12px;
+    transform: scale(1.2);
+}
+
+/* Botón CTA */
+.cta-button {
+    width: 100%;
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white;
+    border: none;
+    padding: 18px 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(52, 152, 219, 0.3);
+}
+
+/* Test Section */
+.test-section {
+    background: #f8f9fa;
+}
+
+.test-section h3 {
+    color: #2c3e50;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Barra de progreso */
+.progress-bar {
+    width: 100%;
+    height: 12px;
+    background: #e9ecef;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 100%;
+    background: linear-gradient(90deg, #3498db 0%, #2980b9 100%);
+    transition: width 0.3s ease;
+    border-radius: 6px;
+}
+
+.question-counter {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #5a6c7d;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Preguntas */
+.question-container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.question h4 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.option-label {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #fafafa;
+}
+
+.option-label:hover {
+    border-color: #3498db;
+    background: #f0f8ff;
+}
+
+.option-label input[type="radio"] {
+    margin-right: 15px;
+    transform: scale(1.2);
+}
+
+.option-label input[type="radio"]:checked + .option-text {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.option-label:has(input:checked) {
+    border-color: #3498db;
+    background: #e3f2fd;
+}
+
+.option-text {
+    font-size: 1.05rem;
+    line-height: 1.4;
+}
+
+/* Navegación del test */
+.test-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.test-navigation button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#prevBtn {
+    background: #95a5a6;
+    color: white;
+}
+
+#prevBtn:hover {
+    background: #7f8c8d;
+}
+
+#nextBtn {
+    background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+    color: white;
+    flex: 1;
+    max-width: 200px;
+    margin-left: auto;
+}
+
+#nextBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(39, 174, 96, 0.3);
+}
+
+/* Resultados */
+.results-section {
+    background: white;
+}
+
+.results-section h3 {
+    color: #2c3e50;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.result-low {
+    background: linear-gradient(135deg, #d5f4e6 0%, #c3f0d3 100%);
+    border-left: 5px solid #27ae60;
+}
+
+.result-medium {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%);
+    border-left: 5px solid #f39c12;
+}
+
+.result-high {
+    background: linear-gradient(135deg, #ffeaa7 0%, #fdcb6e 100%);
+    border-left: 5px solid #e67e22;
+}
+
+.result-critical {
+    background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+    border-left: 5px solid #e74c3c;
+}
+
+.result-low, .result-medium, .result-high, .result-critical {
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.result-content h4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.result-content h5 {
+    font-size: 1.3rem;
+    color: #2c3e50;
+    margin: 25px 0 15px 0;
+}
+
+.result-content ul {
+    padding-left: 20px;
+}
+
+.result-content li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+.important-note {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 4px solid #6c757d;
+    margin-top: 30px;
+}
+
+/* Oferta del libro */
+.book-offer {
+    background: linear-gradient(135deg, #e8f5e8 0%, #d4edda 100%);
+    padding: 30px;
+    border-radius: 15px;
+    border-left: 5px solid #27ae60;
+    margin-top: 40px;
+}
+
+.book-offer h4 {
+    color: #27ae60;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.book-offer ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.book-offer li {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}
+
+/* CTA Final */
+.final-cta {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    color: white;
+    text-align: center;
+}
+
+.final-cta h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.final-cta > p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #ecf0f1;
+}
+
+.support-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.support-option {
+    background: rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.support-option h4 {
+    color: #3498db;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: #bdc3c7;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        margin: 0;
+    }
+    
+    .hero-section {
+        padding: 40px 20px;
+    }
+    
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+    
+    .hero-section h2 {
+        font-size: 1.4rem;
+    }
+    
+    section {
+        padding: 30px 20px;
+    }
+    
+    .pain-points {
+        grid-template-columns: 1fr;
+    }
+    
+    .pain-point {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .pain-point .icon {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .question-container {
+        padding: 25px;
+    }
+    
+    .test-navigation {
+        flex-direction: column;
+    }
+    
+    .test-navigation button {
+        width: 100%;
+    }
+    
+    .support-options {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-section h2 {
+        font-size: 1.2rem;
+    }
+    
+    .awareness-section h3,
+    .data-form-section h3,
+    .test-section h3,
+    .results-section h3 {
+        font-size: 1.5rem;
+    }
+    
+    .question-container {
+        padding: 20px;
+    }
+    
+    .option-label {
+        padding: 12px 15px;
+    }
+}

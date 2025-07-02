@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historias de la Mente - Test de Detección Narcisista</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="hero-section">
+            <h1>Historias de la Mente</h1>
+            <h2>¿Estás viviendo una relación con una persona narcisista?</h2>
+            <p class="hero-subtitle">Descubre la verdad y recupera tu poder personal</p>
+        </header>
+
+        <!-- Contenido Principal -->
+        <main>
+            <!-- Sección de Concienciación -->
+            <section class="awareness-section">
+                <h3>🔍 ¿Te sientes confundido(a) en tu relación?</h3>
+                <div class="pain-points">
+                    <div class="pain-point">
+                        <span class="icon">💔</span>
+                        <p>¿Sientes que constantemente cuestionas tu propia realidad?</p>
+                    </div>
+                    <div class="pain-point">
+                        <span class="icon">😔</span>
+                        <p>¿Te han hecho sentir que "exageras" o que eres "muy sensible"?</p>
+                    </div>
+                    <div class="pain-point">
+                        <span class="icon">🤯</span>
+                        <p>¿Notas que tu autoestima ha disminuido significativamente?</p>
+                    </div>
+                    <div class="pain-point">
+                        <span class="icon">😰</span>
+                        <p>¿Caminas en cáscaras de huevo para evitar conflictos?</p>
+                    </div>
+                </div>
+                
+                <div class="solution-intro">
+                    <h4>Si respondiste "sí" a alguna de estas preguntas...</h4>
+                    <p>Es posible que estés en una relación con una persona con rasgos narcisistas. 
+                    <strong>No estás loco(a), no eres tú el problema.</strong></p>
+                    
+                    <p>El narcisismo patológico es un patrón de comportamiento que puede causar 
+                    daño emocional profundo a quienes están cerca. Reconocerlo es el primer paso 
+                    hacia tu sanación y liberación.</p>
+                </div>
+            </section>
+
+            <!-- Formulario de Datos -->
+            <section class="data-form-section" id="dataForm">
+                <h3>🎯 Accede a tu Test Gratuito</h3>
+                <p>Antes de comenzar, necesitamos algunos datos para enviarte tus resultados y 
+                el libro de ayuda gratuito.</p>
+                
+                <form id="userDataForm" class="user-form">
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="whatsapp">WhatsApp (con código de país)</label>
+                        <input type="tel" id="whatsapp" name="whatsapp" placeholder="+57 300 1234567" required>
+                    </div>
+                    
+                    <div class="privacy-notice">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="privacy" required>
+                            <span class="checkmark"></span>
+                            Acepto recibir información de ayuda y el libro gratuito. 
+                            Tus datos están seguros y nunca serán compartidos.
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="cta-button">
+                        Comenzar Test Gratuito →
+                    </button>
+                </form>
+            </section>
+
+            <!-- Test de Preguntas (Oculto inicialmente) -->
+            <section class="test-section" id="testSection" style="display: none;">
+                <h3>📝 Test de Detección: "¿Estás con una persona narcisista?"</h3>
+                <div class="progress-bar">
+                    <div class="progress" id="progress"></div>
+                </div>
+                <p class="question-counter">Pregunta <span id="currentQuestion">1</span> de 20</p>
+                
+                <div class="question-container" id="questionContainer">
+                    <!-- Las preguntas se cargarán dinámicamente -->
+                </div>
+                
+                <div class="test-navigation">
+                    <button id="prevBtn" style="display: none;">← Anterior</button>
+                    <button id="nextBtn">Siguiente →</button>
+                </div>
+            </section>
+
+            <!-- Resultados (Oculto inicialmente) -->
+            <section class="results-section" id="resultsSection" style="display: none;">
+                <h3>📊 Tus Resultados</h3>
+                <div class="result-content" id="resultContent">
+                    <!-- Los resultados se cargarán dinámicamente -->
+                </div>
+                
+                <div class="book-offer">
+                    <h4>🎁 Tu Libro de Ayuda Gratuito</h4>
+                    <p>Como prometimos, hemos enviado a tu correo electrónico nuestro libro:
+                    <strong>"Sanando las Heridas del Narcisismo: Guía de Recuperación para Víctimas"</strong></p>
+                    
+                    <p>Este libro incluye:</p>
+                    <ul>
+                        <li>✅ Estrategias de sanación emocional</li>
+                        <li>✅ Técnicas para reconstruir tu autoestima</li>
+                        <li>✅ Pasos para establecer límites saludables</li>
+                        <li>✅ Recursos para apoyo profesional</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Call to Action Final -->
+            <section class="final-cta">
+                <h3>💪 No estás solo(a) en este proceso</h3>
+                <p>Miles de personas han logrado salir de relaciones tóxicas y reconstruir su vida. 
+                Tú también puedes hacerlo.</p>
+                
+                <div class="support-options">
+                    <div class="support-option">
+                        <h4>📞 Línea de Apoyo</h4>
+                        <p>Si necesitas hablar con alguien inmediatamente, 
+                        contacta la línea nacional de violencia doméstica.</p>
+                    </div>
+                    
+                    <div class="support-option">
+                        <h4>👥 Comunidad de Apoyo</h4>
+                        <p>Únete a nuestro grupo de WhatsApp para conectar 
+                        con otras personas en proceso de sanación.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Historias de la Mente. Todos los derechos reservados.</p>
+            <p>Este contenido es solo para fines educativos y no reemplaza la consulta profesional.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
