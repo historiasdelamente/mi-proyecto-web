@@ -1,0 +1,218 @@
+{
+  "numStartups": 1,
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "customApiKeyResponses": {
+    "approved": [
+      "fHFs-zTFYBA-L6fStwAA"
+    ],
+    "rejected": []
+  },
+  "tipsHistory": {
+    "new-user-warmup": 1
+  },
+  "promptQueueUseCount": 1,
+  "firstStartTime": "2025-07-02T00:18:40.927Z",
+  "userID": "e69fa558976c37be00ac6cea15311e3b9808ba5a295824c69c2b6907043f3cbf",
+  "projects": {
+    "/home/delamente": {
+      "allowedTools": [],
+      "history": [
+        {
+          "display": "2",
+          "pastedContents": {}
+        },
+        {
+          "display": "ya la pude ver ahora dime a donde me llegan los datos  el archivo de drive",
+          "pastedContents": {}
+        },
+        {
+          "display": "listo ya lo hice",
+          "pastedContents": {}
+        },
+        {
+          "display": "\nhttps://historiasdelamente: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\n@github.com/historiasdelamente/mi-proyecto-web.git main   ",
+          "pastedContents": {}
+        },
+        {
+          "display": "ya tengo el token que hago ",
+          "pastedContents": {}
+        },
+        {
+          "display": "2",
+          "pastedContents": {}
+        },
+        {
+          "display": "dime y te digo para que nos autentifiquemos bien dime que datos necesitas ",
+          "pastedContents": {}
+        },
+        {
+          "display": "si ya hice gtodo peor no encuentro donde la guardastge si estas seguro que me la guardasgte en mi giuthub podemos verificar dime aque neceisgtas o si no la gaudamos de nuevo ya se cono hacerlo pero necesito que me digas donde quedaron estos archivos ",
+          "pastedContents": {}
+        },
+        {
+          "display": "si tengo problemas  estoy en historias de la mente mi-proyecto-web  pero no se como abrirla me podrias deccir el paso a paso para ahcerla",
+          "pastedContents": {}
+        },
+        {
+          "display": "la pagina fue guardada en github para continuar despeus ?",
+          "pastedContents": {}
+        },
+        {
+          "display": "utilizo windows ",
+          "pastedContents": {}
+        },
+        {
+          "display": "no se abrir la pagina pme podrias ayudar a abrirla como si fuera un usuario final recuerda aque no tengo conocimiento no eh podido encontrarla ",
+          "pastedContents": {}
+        },
+        {
+          "display": "quedo en el repositrorio dime como la abro en github dame la ruta especifica como si fuera un novatoso que ahcer",
+          "pastedContents": {}
+        },
+        {
+          "display": "ahora necesito crear una pagina de lanzamiento donde hagas un texto para detectar a personas que son narcisitas para ayudarle a las victimas , pero antes de hacer el test debes de pedirle los datos que te pedi anteriormente la pagina se llama historias de la mente ,  es un test que tiene 20 preguntas interactivas , , y tambien les dices que les daras un libro de ayuda , el cual yo tengo hecho , pero tu mision es hacer una pagina de lanzamiento con estos requisitos ",
+          "pastedContents": {}
+        },
+        {
+          "display": "{\"web\":{\"client_id\":\"249874099933-6sc2pnk0aib33pubur3bg4mklbjt9n4j.apps.googleusercontent.com\",\"project_id\":\"eighth-zenith-380906\",\"auth_uri\":\"https://accounts.google.com/o/oauth2/auth\",\"token_uri\":\"https://oauth2.googleapis.com/token\",\"auth_provider_x509_cert_url\":\"https://www.googleapis.com/oauth2/v1/certs\",\"client_secret\":\"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\"}}",
+          "pastedContents": {}
+        },
+        {
+          "display": "249874099933-6sc2pnk0aib33pubur3bg4mklbjt9n4j.apps.googleusercontent.com",
+          "pastedContents": {}
+        },
+        {
+          "display": "necesito recopilar el correo electroico el whatssap y el nombre , ya tengo las credenciales dime como las bnusco , quiero un codigo python  ",
+          "pastedContents": {}
+        },
+        {
+          "display": "3",
+          "pastedContents": {}
+        },
+        {
+          "display": "antes de empezr necesito que te conectes con mi drive y crees un archivo de excel donde recopilaras los datos dime que necesitas",
+          "pastedContents": {}
+        },
+        {
+          "display": "ya estas conectado a mi proyecto web ",
+          "pastedContents": {}
+        },
+        {
+          "display": "si voy a crear en github lo que creamos de delamente , un apagina web vamos a hacerla te dare las instrucciones",
+          "pastedContents": {}
+        },
+        {
+          "display": "puedo utilizar losk tokens del plan pro ",
+          "pastedContents": {}
+        },
+        {
+          "display": "1",
+          "pastedContents": {}
+        },
+        {
+          "display": "# Conecta con tu repositorio (reemplaza \"historiasdelamente\" con tu usuario real)\ngit remote add origin https://github.com/historiasdelamente/mi-proyecto-web.git\n\n# Agrega todos los archivos\ngit add .\n\n# Hace el commit inicial\ngit commit -m \"Initial commit\"\n\n# Sube todo a GitHub\ngit push -u origin main",
+          "pastedContents": {}
+        },
+        {
+          "display": "1",
+          "pastedContents": {}
+        },
+        {
+          "display": "claude",
+          "pastedContents": {}
+        },
+        {
+          "display": "# Verifica permisos\nls -la /home/delamente/.npm-global/bin/claude\n\n# Ver más detalles del error\nclaude auth --verbose\n\n# O intentar con debug\nDEBUG=* claude auth",
+          "pastedContents": {}
+        },
+        {
+          "display": "curl -fsSL https://claude.ai/install.sh | bash",
+          "pastedContents": {}
+        },
+        {
+          "display": "# Edita tu .bashrc\nnano ~/.bashrc",
+          "pastedContents": {}
+        },
+        {
+          "display": "claude-code --version",
+          "pastedContents": {}
+        },
+        {
+          "display": "\n  which jq\n  /usr/bin/jq --version\n  export PATH=\"/usr/bin:$PATH\"\n  jq --version",
+          "pastedContents": {}
+        },
+        {
+          "display": "# Cierra y abre una nueva terminal, o ejecuta:\nsource ~/.bashrc",
+          "pastedContents": {}
+        },
+        {
+          "display": " sudo apt install -y jq",
+          "pastedContents": {}
+        },
+        {
+          "display": "curl -fsSL https://claude.ai/install.sh | bash",
+          "pastedContents": {}
+        },
+        {
+          "display": "sudo apt update && sudo apt install -y jq",
+          "pastedContents": {}
+        },
+        {
+          "display": "si",
+          "pastedContents": {}
+        },
+        {
+          "display": "# Intenta autenticarte con tu Plan Pro\nclaude-code auth\n\n# O prueba:\nclaude-code --help",
+          "pastedContents": {}
+        },
+        {
+          "display": "y",
+          "pastedContents": {}
+        },
+        {
+          "display": "# Elimina la variable de entorno de Anthropic\nunset ANTHROPIC_API_KEY\n\n# O edita tu .bashrc y elimina la línea:\nnano ~/.bashrc\n# Borra la línea: export ANTHROPIC_API_KEY=\"...\"\nsource ~/.bashrc",
+          "pastedContents": {}
+        },
+        {
+          "display": "cd",
+          "pastedContents": {}
+        },
+        {
+          "display": "priemrp voy a ahcerte unas pregunta para luego ejecutar un proyecto no hagas nada antes de que lleguemos a algo , priemtro que todo quiero conectar esto con github como lo hago",
+          "pastedContents": {}
+        },
+        {
+          "display": "puedes hablarme en español",
+          "pastedContents": {}
+        }
+      ],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 2,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false,
+      "lastTotalWebSearchRequests": 0
+    }
+  },
+  "oauthAccount": {
+    "accountUuid": "0755fcef-a49a-4933-972b-1e2aa36514a4",
+    "emailAddress": "javiervieira@crecevd.com",
+    "organizationUuid": "bf60f828-7188-4f52-8e9f-178637274598",
+    "organizationRole": "admin",
+    "workspaceRole": null,
+    "organizationName": "JAVIER’s Individual Org"
+  },
+  "primaryApiKey": "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",
+  "isQualifiedForDataSharing": false,
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "1.0.39",
+  "recommendedSubscription": "",
+  "cachedChangelog": "# Changelog\n\n## 1.0.38\n\n- Released [hooks](https://docs.anthropic.com/en/docs/claude-code/hooks). Special thanks to community input in [Github Issues](https://github.com/anthropics/claude-code/issues/712)\n\n## 1.0.37\n\n- Remove ability to set `Proxy-Authorization` header via ANTHROPIC_AUTH_TOKEN or apiKeyHelper\n\n## 1.0.36\n\n- Web search now takes today's date into context\n- Fixed a bug where stdio MCP servers were not terminating properly on exit\n\n## 1.0.35\n\n- Added support for MCP OAuth Authorization Server discovery\n\n## 1.0.34\n\n- Fixed a memory leak causing a MaxListenersExceededWarning message to appear\n\n## 1.0.33\n\n- Improved logging functionality with session ID support\n- Added undo functionality (Ctrl+Z and vim 'u' command)\n- Improvements to plan mode\n\n## 1.0.32\n\n- Updated loopback config for litellm\n- Added forceLoginMethod setting to bypass login selection screen\n\n## 1.0.31\n\n- Fixed a bug where ~/.claude.json would get reset when file contained invalid JSON\n\n## 1.0.30\n\n- Custom slash commands: Run bash output, @-mention files, enable thinking with thinking keywords\n- Improved file path autocomplete with filename matching\n- Added timestamps in Ctrl-r mode and fixed Ctrl-c handling\n- Enhanced jq regex support for complex filters with pipes and select\n\n## 1.0.29\n\n- Improved CJK character support in cursor navigation and rendering\n\n## 1.0.28\n\n- Slash commands: Fix selector display during history navigation\n- Resizes images before upload to prevent API size limit errors\n- Added XDG_CONFIG_HOME support to configuration directory\n- Performance optimizations for memory usage\n- New attributes (terminal.type, language) in OpenTelemetry logging\n\n## 1.0.27\n\n- Streamable HTTP MCP servers are now supported\n- Remote MCP servers (SSE and HTTP) now support OAuth\n- MCP resources can now be @-mentioned\n- /resume slash command to switch conversations within Claude Code\n\n## 1.0.25\n\n- Slash commands: moved \"project\" and \"user\" prefixes to descriptions\n- Slash commands: improved reliability for command discovery\n- Improved support for Ghostty\n- Improved web search reliability\n\n## 1.0.24\n\n- Improved /mcp output\n- Fixed a bug where settings arrays got overwritten instead of merged\n\n## 1.0.23\n\n- Released TypeScript SDK: import @anthropic-ai/claude-code to get started\n- Released Python SDK: pip install claude-code-sdk to get started\n\n## 1.0.22\n\n- SDK: Renamed `total_cost` to `total_cost_usd`\n\n## 1.0.21\n\n- Improved editing of files with tab-based indentation\n- Fix for tool_use without matching tool_result errors\n- Fixed a bug where stdio MCP server processes would linger after quitting Claude Code\n\n## 1.0.18\n\n- Added --add-dir CLI argument for specifying additional working directories\n- Added streaming input support without require -p flag\n- Improved startup performance and session storage performance\n- Added CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR environment variable to freeze working directory for bash commands\n- Added detailed MCP server tools display (/mcp)\n- MCP authentication and permission improvements\n- Added auto-reconnection for MCP SSE connections on disconnect\n- Fixed issue where pasted content was lost when dialogs appeared\n\n## 1.0.17\n\n- We now emit messages from sub-tasks in -p mode (look for the parent_tool_use_id property)\n- Fixed crashes when the VS Code diff tool is invoked multiple times quickly\n- MCP server list UI improvements\n- Update Claude Code process title to display \"claude\" instead of \"node\"\n\n## 1.0.11\n\n- Claude Code can now also be used with a Claude Pro subscription\n- Added /upgrade for smoother switching to Claude Max plans\n- Improved UI for authentication from API keys and Bedrock/Vertex/external auth tokens\n- Improved shell configuration error handling\n- Improved todo list handling during compaction\n\n## 1.0.10\n\n- Added markdown table support\n- Improved streaming performance\n\n## 1.0.8\n\n- Fixed Vertex AI region fallback when using CLOUD_ML_REGION\n- Increased default otel interval from 1s -> 5s\n- Fixed edge cases where MCP_TIMEOUT and MCP_TOOL_TIMEOUT weren't being respected\n- Fixed a regression where search tools unnecessarily asked for permissions\n- Added support for triggering thinking non-English languages\n- Improved compacting UI\n\n## 1.0.7\n\n- Renamed /allowed-tools -> /permissions\n- Migrated allowedTools and ignorePatterns from .claude.json -> settings.json\n- Deprecated claude config commands in favor of editing settings.json\n- Fixed a bug where --dangerously-skip-permissions sometimes didn't work in --print mode\n- Improved error handling for /install-github-app\n- Bugfixes, UI polish, and tool reliability improvements\n\n## 1.0.6\n\n- Improved edit reliability for tab-indented files\n- Respect CLAUDE_CONFIG_DIR everywhere\n- Reduced unnecessary tool permission prompts\n- Added support for symlinks in @file typeahead\n- Bugfixes, UI polish, and tool reliability improvements\n\n## 1.0.4\n\n- Fixed a bug where MCP tool errors weren't being parsed correctly\n\n## 1.0.1\n\n- Added `DISABLE_INTERLEAVED_THINKING` to give users the option to opt out of interleaved thinking.\n- Improved model references to show provider-specific names (Sonnet 3.7 for Bedrock, Sonnet 4 for Console)\n- Updated documentation links and OAuth process descriptions\n\n## 1.0.0\n\n- Claude Code is now generally available\n- Introducing Sonnet 4 and Opus 4 models\n\n## 0.2.125\n\n- Breaking change: Bedrock ARN passed to `ANTHROPIC_MODEL` or `ANTHROPIC_SMALL_FAST_MODEL` should no longer contain an escaped slash (specify `/` instead of `%2F`)\n- Removed `DEBUG=true` in favor of `ANTHROPIC_LOG=debug`, to log all requests\n\n## 0.2.117\n\n- Breaking change: --print JSON output now returns nested message objects, for forwards-compatibility as we introduce new metadata fields\n- Introduced settings.cleanupPeriodDays\n- Introduced CLAUDE_CODE_API_KEY_HELPER_TTL_MS env var\n- Introduced --debug mode\n\n## 0.2.108\n\n- You can now send messages to Claude while it works to steer Claude in real-time\n- Introduced BASH_DEFAULT_TIMEOUT_MS and BASH_MAX_TIMEOUT_MS env vars\n- Fixed a bug where thinking was not working in -p mode\n- Fixed a regression in /cost reporting\n- Deprecated MCP wizard interface in favor of other MCP commands\n- Lots of other bugfixes and improvements\n\n## 0.2.107\n\n- CLAUDE.md files can now import other files. Add @path/to/file.md to ./CLAUDE.md to load additional files on launch\n\n## 0.2.106\n\n- MCP SSE server configs can now specify custom headers\n- Fixed a bug where MCP permission prompt didn't always show correctly\n\n## 0.2.105\n\n- Claude can now search the web\n- Moved system & account status to /status\n- Added word movement keybindings for Vim\n- Improved latency for startup, todo tool, and file edits\n\n## 0.2.102\n\n- Improved thinking triggering reliability\n- Improved @mention reliability for images and folders\n- You can now paste multiple large chunks into one prompt\n\n## 0.2.100\n\n- Fixed a crash caused by a stack overflow error\n- Made db storage optional; missing db support disables --continue and --resume\n\n## 0.2.98\n\n- Fixed an issue where auto-compact was running twice\n\n## 0.2.96\n\n- Claude Code can now also be used with a Claude Max subscription (https://claude.ai/upgrade)\n\n## 0.2.93\n\n- Resume conversations from where you left off from with \"claude --continue\" and \"claude --resume\"\n- Claude now has access to a Todo list that helps it stay on track and be more organized\n\n## 0.2.82\n\n- Added support for --disallowedTools\n- Renamed tools for consistency: LSTool -> LS, View -> Read, etc.\n\n## 0.2.75\n\n- Hit Enter to queue up additional messages while Claude is working\n- Drag in or copy/paste image files directly into the prompt\n- @-mention files to directly add them to context\n- Run one-off MCP servers with `claude --mcp-config <path-to-file>`\n- Improved performance for filename auto-complete\n\n## 0.2.74\n\n- Added support for refreshing dynamically generated API keys (via apiKeyHelper), with a 5 minute TTL\n- Task tool can now perform writes and run bash commands\n\n## 0.2.72\n\n- Updated spinner to indicate tokens loaded and tool usage\n\n## 0.2.70\n\n- Network commands like curl are now available for Claude to use\n- Claude can now run multiple web queries in parallel\n- Pressing ESC once immediately interrupts Claude in Auto-accept mode\n\n## 0.2.69\n\n- Fixed UI glitches with improved Select component behavior\n- Enhanced terminal output display with better text truncation logic\n\n## 0.2.67\n\n- Shared project permission rules can be saved in .claude/settings.json\n\n## 0.2.66\n\n- Print mode (-p) now supports streaming output via --output-format=stream-json\n- Fixed issue where pasting could trigger memory or bash mode unexpectedly\n\n## 0.2.63\n\n- Fixed an issue where MCP tools were loaded twice, which caused tool call errors\n\n## 0.2.61\n\n- Navigate menus with vim-style keys (j/k) or bash/emacs shortcuts (Ctrl+n/p) for faster interaction\n- Enhanced image detection for more reliable clipboard paste functionality\n- Fixed an issue where ESC key could crash the conversation history selector\n\n## 0.2.59\n\n- Copy+paste images directly into your prompt\n- Improved progress indicators for bash and fetch tools\n- Bugfixes for non-interactive mode (-p)\n\n## 0.2.54\n\n- Quickly add to Memory by starting your message with '#'\n- Press ctrl+r to see full output for long tool results\n- Added support for MCP SSE transport\n\n## 0.2.53\n\n- New web fetch tool lets Claude view URLs that you paste in\n- Fixed a bug with JPEG detection\n\n## 0.2.50\n\n- New MCP \"project\" scope now allows you to add MCP servers to .mcp.json files and commit them to your repository\n\n## 0.2.49\n\n- Previous MCP server scopes have been renamed: previous \"project\" scope is now \"local\" and \"global\" scope is now \"user\"\n\n## 0.2.47\n\n- Press Tab to auto-complete file and folder names\n- Press Shift + Tab to toggle auto-accept for file edits\n- Automatic conversation compaction for infinite conversation length (toggle with /config)\n\n## 0.2.44\n\n- Ask Claude to make a plan with thinking mode: just say 'think' or 'think harder' or even 'ultrathink'\n\n## 0.2.41\n\n- MCP server startup timeout can now be configured via MCP_TIMEOUT environment variable\n- MCP server startup no longer blocks the app from starting up\n\n## 0.2.37\n\n- New /release-notes command lets you view release notes at any time\n- `claude config add/remove` commands now accept multiple values separated by commas or spaces\n\n## 0.2.36\n\n- Import MCP servers from Claude Desktop with `claude mcp add-from-claude-desktop`\n- Add MCP servers as JSON strings with `claude mcp add-json <n> <json>`\n\n## 0.2.34\n\n- Vim bindings for text input - enable with /vim or /config\n\n## 0.2.32\n\n- Interactive MCP setup wizard: Run \"claude mcp add\" to add MCP servers with a step-by-step interface\n- Fix for some PersistentShell issues\n\n## 0.2.31\n\n- Custom slash commands: Markdown files in .claude/commands/ directories now appear as custom slash commands to insert prompts into your conversation\n- MCP debug mode: Run with --mcp-debug flag to get more information about MCP server errors\n\n## 0.2.30\n\n- Added ANSI color theme for better terminal compatibility\n- Fixed issue where slash command arguments weren't being sent properly\n- (Mac-only) API keys are now stored in macOS Keychain\n\n## 0.2.26\n\n- New /approved-tools command for managing tool permissions\n- Word-level diff display for improved code readability\n- Fuzzy matching for slash commands\n\n## 0.2.21\n\n- Fuzzy matching for /commands\n",
+  "changelogLastFetched": 1751419452590,
+  "subscriptionNoticeCount": 1,
+  "hasAvailableSubscription": true
+}

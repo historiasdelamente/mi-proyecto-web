@@ -8,7 +8,7 @@ import pandas as pd
 import io
 
 class DriveExcelManager:
-    def __init__(self, credentials_file='credentials.json'):
+    def __init__(self, credentials_file=None):
         self.credentials_file = credentials_file
         self.scopes = ['https://www.googleapis.com/auth/drive.file']
         self.service = None
@@ -16,19 +16,34 @@ class DriveExcelManager:
         self.authenticate()
     
     def authenticate(self):
-        """Autentica con Google Drive API"""
-        creds = None
-        token_file = 'token.json'
+        """Autentica con Google Drive API usando variables de entorno"""
+        # Crear credenciales desde variables de entorno
+        credentials_info = {
+            "web": {
+                "client_id": os.getenv('GOOGLE_CLIENT_ID'),
+                "client_secret": os.getenv('GOOGLE_CLIENT_SECRET'),
+                "project_id": os.getenv('GOOGLE_PROJECT_ID', 'eighth-zenith-380906'),
+                "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+                "token_uri": "https://oauth2.googleapis.com/token",
+                "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs"
+            }
+        }
         
-        if os.path.exists(token_file):
-            creds = Credentials.from_authorized_user_file(token_file, self.scopes)
-        
-        if not creds or not creds.valid:
-            if creds and creds.expired and creds.refresh_token:
-                creds.refresh(Request())
-            else:
-                flow = Flow.from_client_secrets_file(
-                    self.credentials_file, self.scopes)
+        # Si hay token guardado en variables de entorno, usarlo
+        if os.getenv('GOOGLE_ACCESS_TOKEN'):
+            creds_data = {
+                'token': os.getenv('GOOGLE_ACCESS_TOKEN'),
+                'refresh_token': os.getenv('GOOGLE_REFRESH_TOKEN'),
+                'token_uri': credentials_info['web']['token_uri'],
+                'client_id': credentials_info['web']['client_id'],
+                'client_secret': credentials_info['web']['client_secret'],
+                'scopes': self.scopes
+            }
+            creds = Credentials.from_authorized_user_info(creds_data, self.scopes)
+        else:
+            # Para desarrollo local, usar flujo normal
+            if self.credentials_file and os.path.exists(self.credentials_file):
+                flow = Flow.from_client_secrets_file(self.credentials_file, self.scopes)
                 flow.redirect_uri = 'urn:ietf:wg:oauth:2.0:oob'
                 
                 auth_url, _ = flow.authorization_url(prompt='consent')
@@ -36,9 +51,8 @@ class DriveExcelManager:
                 code = input('Ingresa el código de autorización: ')
                 flow.fetch_token(code=code)
                 creds = flow.credentials
-            
-            with open(token_file, 'w') as token:
-                token.write(creds.to_json())
+            else:
+                raise Exception("No se encontraron credenciales válidas")
         
         self.service = build('drive', 'v3', credentials=creds)
     

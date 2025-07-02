@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude-code --help)",
+      "Bash(claude-code --version)",
+      "Bash(git pull:*)",
+      "Bash(git push:*)"
+    ],
+    "deny": []
+  }
+}

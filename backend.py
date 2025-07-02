@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
+import os
 from drive_excel_manager import DriveExcelManager
 import logging
 
@@ -91,12 +92,19 @@ def health_check():
     })
 
 if __name__ == '__main__':
+    # Obtener puerto del entorno (Railway lo asigna automáticamente)
+    port = int(os.environ.get('PORT', 5000))
+    
     # Crear archivo Excel si no existe
     try:
-        # Puedes descomentar esto para crear el archivo inicial
+        # En producción, usar variable de entorno para el spreadsheet ID
+        spreadsheet_id = os.environ.get('GOOGLE_SPREADSHEET_ID')
+        if spreadsheet_id:
+            drive_manager.set_spreadsheet_id(spreadsheet_id)
+        # Descomentar para crear archivo inicial:
         # drive_manager.create_excel_file()
         pass
     except Exception as e:
         logger.warning(f"No se pudo crear archivo inicial: {str(e)}")
     
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(debug=False, host='0.0.0.0', port=port)

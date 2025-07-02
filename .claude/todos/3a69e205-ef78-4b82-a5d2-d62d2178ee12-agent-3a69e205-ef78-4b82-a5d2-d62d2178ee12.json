@@ -1,0 +1,38 @@
+[
+  {
+    "content": "Configurar servidor en Railway para el backend Python",
+    "status": "in_progress",
+    "priority": "high",
+    "id": "1"
+  },
+  {
+    "content": "Configurar variables de entorno para las credenciales de Google",
+    "status": "pending",
+    "priority": "high",
+    "id": "2"
+  },
+  {
+    "content": "Modificar el código para usar variables de entorno",
+    "status": "completed",
+    "priority": "high",
+    "id": "3"
+  },
+  {
+    "content": "Crear archivo de configuración para Railway",
+    "status": "completed",
+    "priority": "medium",
+    "id": "4"
+  },
+  {
+    "content": "Actualizar la URL del frontend para conectar con el servidor",
+    "status": "pending",
+    "priority": "medium",
+    "id": "5"
+  },
+  {
+    "content": "Probar la conexión completa",
+    "status": "pending",
+    "priority": "high",
+    "id": "6"
+  }
+]
